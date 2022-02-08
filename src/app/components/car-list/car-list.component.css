@@ -1,0 +1,48 @@
+.car-list {
+  padding-top: 50px;
+  width: 50%;
+  margin: auto;
+}
+
+.car {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.car-img {
+  height: 80px;
+}
+
+.edit-btn {
+  color: white;
+  background-color: coral;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.dlt-btn {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.add-btn {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+}

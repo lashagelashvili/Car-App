@@ -1,0 +1,48 @@
+<form class="form" [formGroup]="carForm" (ngSubmit)="onSubmit()">
+    <h1>დაამატე მანქანა</h1>
+    <label for="cars">აირჩიე მანქანა:</label>
+    <select name="cars" id="cars" formControlName="model">
+        <option>Audi</option>
+        <option>BMW</option>
+        <option>Mercedes</option>
+        <option>Toyota</option>
+        <option>Mitsubishi</option>
+    </select>
+
+    <label for="description">ავტომობილის აღწერა:</label>
+    <textarea id="description" name="description" rows="3" placeholder="აღწერა..."
+        formControlName="description"></textarea>
+
+    <label for="image-link">სურათის ლინკი:</label>
+    <input id="image-link" type="text" formControlName="img">
+
+    <div class="checkbox" formGroupName="options">
+        <p>მახასიათებლები:</p>
+
+        <input type="checkbox" id="abs" formControlName="abs">
+        <label for="abs">ABS</label><br>
+
+        <input type="checkbox" id="window" formControlName="window">
+        <label for="window">ელექტრო შუშის ამწევი</label><br>
+
+        <input type="checkbox" id="sunroof" formControlName="sunroof">
+        <label for="sunroof">ლუქი</label><br>
+
+        <input type="checkbox" id="bluetooth" formControlName="bluetooth">
+        <label for="bluetooth">Bluetooth</label><br>
+
+        <input type="checkbox" id="parking" formControlName="parking">
+        <label for="parking">პარკინგკონტროლი</label><br>
+
+        <input type="checkbox" id="navigation" formControlName="navigation">
+        <label for="navigation">ნავიგაცია</label><br>
+
+        <input type="checkbox" id="computer" formControlName="computer">
+        <label for="computer">ბორტკომპიუტერი</label><br>
+
+        <input type="checkbox" id="wheel" formControlName="wheel">
+        <label for="wheel">მულტი საჭე</label><br>
+    </div>
+
+    <button id="submit" type="submit">Save</button>
+</form>

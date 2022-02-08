@@ -1,0 +1,10 @@
+<div class="car-list">
+    <div class="car" *ngFor="let car of cars">
+        <img class="car-img" [src]="car.img" alt="">
+        <h3>{{ car.model }}</h3>
+        <p>{{ car.description}}</p>
+        <button class="edit-btn" (click)="onCarClick(car.id)">Edit</button>
+        <button class="dlt-btn" (click)="onDelete(car.id)">Delete</button>
+    </div>
+    <button class="add-btn" [routerLink]="['/cars/new']">Add</button>
+</div>
