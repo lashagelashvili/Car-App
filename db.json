@@ -1,0 +1,68 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "img": "https://www.tuningblog.eu/wp-content/uploads/2017/02/Yas-Marina-Blue-BMW-M3-F80-Sparco-SPX-Carbon-Tuning-9.jpg",
+      "model": "BMW",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, facere.",
+      "options": {
+        "abs": true,
+        "window": true,
+        "sunroof": true,
+        "bluetooth": true,
+        "parking": true,
+        "navigation": false,
+        "computer": false,
+        "wheel": false
+      }
+    },
+    {
+      "id": 2,
+      "img": "https://cdn.motor1.com/images/mgl/NR1vY/s1/2020-audi-r8-coupe.jpg",
+      "model": "Audi",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, facere.",
+      "options": {
+        "abs": true,
+        "window": false,
+        "sunroof": true,
+        "bluetooth": false,
+        "parking": false,
+        "navigation": true,
+        "computer": true,
+        "wheel": true
+      }
+    },
+    {
+      "id": 3,
+      "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2021-mercedes-amg-c63-mmp-1-1604525617.jpg",
+      "model": "Mercedes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, facere.",
+      "options": {
+        "abs": true,
+        "window": false,
+        "sunroof": true,
+        "bluetooth": false,
+        "parking": false,
+        "navigation": true,
+        "computer": true,
+        "wheel": true
+      }
+    },
+    {
+      "id": 4,
+      "img": "https://www.motortrend.com/uploads/sites/5/2021/06/2022-toyota-supra-exterior-01.jpg",
+      "model": "Toyota",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, facere.",
+      "options": {
+        "abs": true,
+        "window": true,
+        "sunroof": true,
+        "bluetooth": true,
+        "parking": true,
+        "navigation": true,
+        "computer": true,
+        "wheel": false
+      }
+    }
+  ]
+}
